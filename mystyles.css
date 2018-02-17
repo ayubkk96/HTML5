@@ -1,0 +1,118 @@
+
+
+/* large pink page text on each page */
+p {
+    background-color: black;
+    font-family: fantasy;
+    font-size: 90px;
+    font-style: italic;
+    font-stretch: extra-condensed;
+    outline-color: black;
+    color: hotpink;
+    outline-style: solid;
+    font: normal;
+    text-shadow:
+        -1px -1px 0 white,
+		1px -1px 0 aqua,
+		-1px 1px 0 aqua,
+		1px 1px 0 aqua;
+    text-align: center;
+}
+/* text for the story on the home page */
+p1 {
+    color: white;
+    text-align: center;
+    
+   
+    
+}
+
+/* Image on the home page */
+m {
+    
+    display: block;
+    margin: 5 auto;
+}
+
+/* Header on each page, e.g 'home' */
+
+h1 {
+    
+    background-color: darkturquoise;
+    background-blend-mode: overlay;
+    text-align: center;
+    font-size: 70px;
+    font-style: oblique;
+    color: white;
+    border-spacing: inherit;
+    text-shadow:
+        -1px -1px 0 purple,
+		1px -1px 0 purple,
+		-1px 1px 0 purple,
+		1px 1px 0 purple;
+    font-family: "Brush Script MT",cursive;
+    
+}
+
+/* Navigation bar */
+
+a {color: hotpink; text-decoration: none}
+a:hover {color: aqua; text-decoration: none; line-height: 1.3em; }
+a {font-family: courier;}
+a {font-size: 40;}
+a {border-spacing: inherit;}
+a {padding: 10px 5px; font-size: .80em;}
+
+
+/* Navigation bar */
+.topnav
+{
+    background-color:black;
+    font-size: 30px;
+    caret-color: floral;
+    text-decoration-color: hotpink;
+    text-align: center;
+    
+}
+
+
+/* Whole pages */
+html {
+    background-color: black
+}
+
+
+/* Loginbox */
+
+.loginbox {
+    background-color: mediumpurple;         
+}
+
+
+/* Footer */
+
+.footer {
+    color: aqua
+}
+
+/* A box around the story text on the home page */
+
+.boxed {
+    border: none;
+    background-color: black;
+    text-align: center;
+}
+
+/* For the instructions on the game page */
+
+h2
+{
+    color: white;  
+}
+
+
+/* For the instructions on the game page */
+
+p3{
+    color: white;
+}
